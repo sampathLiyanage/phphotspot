@@ -1,0 +1,19 @@
+<svg width="78.459999" height="78.459999" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter x="-0.319445" width="1.638889" y="-0.313458" height="1.626916" id="filter4571">
+   <feGaussianBlur stdDeviation="9.538355" id="feGaussianBlur4573"/>
+  </filter>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="layer1">
+   <g id="g8851">
+    <path opacity="0.5734" fill="#888a85" stroke="#888a85" stroke-width="0.9" stroke-miterlimit="4" filter="url(#filter4571)" id="path3484" d="m65.321579,65.648384a26.987671,8.293466 0 1 1 -53.975344,0a26.987671,8.293466 0 1 1 53.975344,0z"/>
+    <path fill="#eeeeec" stroke="#eeeeec" stroke-width="0.9" stroke-miterlimit="4" id="path2374" d="m71.624268,35.263752a33.425747,33.425747 0 1 1 -66.851492,0a33.425747,33.425747 0 1 1 66.851492,0z"/>
+    <path fill="#cc0000" stroke="#cc0000" stroke-width="0.9" stroke-miterlimit="4" id="path8847" d="m50.375202,56.6231l-12.929089,-0.171402l-12.928087,0.235516l0.171385,-12.929096l-0.235498,-12.928085l12.92909,0.1714l12.928085,-0.235514l-0.17141,12.929092l0.235523,12.928089z"/>
+    <path fill="#a40000" stroke="#a40000" stroke-width="0.9" stroke-miterlimit="4" id="path8849" d="m55.805309,34.17672l-17.381035,0.151501l-19.026711,0.052326l8.474277,-9.209738l9.438694,-10.02501l8.906723,9.058253l9.588051,9.972668z"/>
+   </g>
+  </g>
+  <text transform="matrix(0.976190447807312,0,0,0.8605769456913457,0.46949460729956627,3.5604700430379688) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_1" y="78.498617" x="38.6812" stroke-width="0" stroke="#000000" fill="#000000">php</text>
+ </g>
+</svg>
