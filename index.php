@@ -158,7 +158,7 @@
                     <md-tab label="Contact Us">
                         <md-content class="md-padding">
                             <h1 class="md-display-2">Contact Us</h1>
-                            <h4 style="margin-left: 5px">Send an email to <a href="mailto:admin@phphotspot.com">admin@phphotspot.com</a> or Submit a support ticket with the following form</h4>
+                            <h4 style="margin-left: 5px">Send an email to <a href="mailto:admin@phpmyspot.com">admin@phpmyspot.com</a> or Submit a support ticket with the following form</h4>
                             <div id="api-client-signup" ng-controller="contactIframeLoadController">
                                 <iframe id="contactIframe" iframe-onload="iframeLoadedCallBack(this)" frameBorder="0" width="400" height="800" src="contact.php"></iframe>
                             </div>
@@ -277,7 +277,7 @@
                 $window.scrollTo(0, 0);
                 document.getElementById("signUpIframe").src = "signup.php";
                 toastService.showToast("Signed up Successfully. You'll receive an email with activation link soon...");
-                window.open('http://cpanel.phphotspot.com','_blank');
+                window.open('http://cpanel.phpmyspot.com','_blank');
             }
         }
     }
@@ -316,14 +316,14 @@
             $scope.imagePath = "http://cdn.thumbr.io/7a5920d28234569b213660f322165bab/KhPZbWboUluRxv8PG87L/www.freepik.com/blog/wp-content/uploads/2015/11/Thanksgiving-day.jpg/800/thumb.jpg";
         })
         .controller('signupController', function($scope,$http) {
-            var oringinalCaptchaUrl = "http://api.phphotspot.com/captcha?transparent=1";
+            var oringinalCaptchaUrl = "http://api.phpmyspot.com/captcha?transparent=1";
             $scope.singupFormData = {};
             $scope.captchaUrl = oringinalCaptchaUrl;
             $scope.submit = function() {
                 console.log($scope.singupFormData);
                 var req = {
                     method: 'POST',
-                    url: "http://api.phphotspot.com/v-2/client-register",
+                    url: "http://api.phpmyspot.com/v-2/client-register",
                     data: JSON.stringify($scope.singupFormData),
                     headers: { 'X-Requested-With':"", "enctype":"application/x-www-form-urlencoded"}
                 }
@@ -350,10 +350,10 @@
             $scope.loginPanel.availableDirections = ['up', 'down', 'left', 'right'];
             $scope.loginPanel.selectedDirection = 'down';
             $scope.loginCpanel = function() {
-                window.open('http://cpanel.phphotspot.com','_blank');
+                window.open('http://cpanel.phpmyspot.com','_blank');
             };
             $scope.loginWebMail = function() {
-                window.open('http://webmail.phphotspot.com','_blank');
+                window.open('http://webmail.phpmyspot.com','_blank');
             };
         }).controller('tabsController', ['$scope','tabService',function($scope,tabService) {
             $scope.tabs = {};
