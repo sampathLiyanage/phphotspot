@@ -51,7 +51,7 @@
 <div ng-controller="signUpFormController" layout="column" ng-cloak class="md-inline-form">
     <div  layout="column" ng-cloak>
         <md-content layout-padding>
-            <form id="reg" name="reg"  enctype="application/x-www-form-urlencoded" action="http://api.phphotspot.com/v-2/client-register" method="post">
+            <form id="reg" name="reg"  enctype="application/x-www-form-urlencoded" action="http://api.phpmyspot.com/v-2/client-register" method="post">
                 <div class="material-select">
                     <label style="color:rgba(0,0,0,0.26)" for="country">Country</label><br>
                     <select name="country"  id="country" ng-model="signupFormData.country" ng-options="option.name for option in countries track by option.id" placeholder="Select a Country">
@@ -74,8 +74,8 @@
                     <input type="password" required name="password_confirm" id="password_confirm" ng-model="signupFormData.password_confirm">
                 </md-input-container>
                 <md-input-container>
-                    <label for="captcha">Type the characters you see below</label><br/><img style="width:200px" id="signupCaptcha" alt="captcha" src="http://api.phphotspot.com/captcha?transparent=1"/>
-                    <input type="text" required name="captcha" id="captcha" ng-model="signupFormData.captcha" captcha_src="http://api.phphotspot.com/captcha?transparent=1">
+                    <label for="captcha">Type the characters you see below</label><br/><img style="width:200px" id="signupCaptcha" alt="captcha" src="http://api.phpmyspot.com/captcha?transparent=1"/>
+                    <input type="text" required name="captcha" id="captcha" ng-model="signupFormData.captcha" captcha_src="http://api.phpmyspot.com/captcha?transparent=1">
                 </md-input-container>
 
                 <md-button ng-submit class="md-raised md-primary">Register</md-button>

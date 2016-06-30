@@ -51,7 +51,7 @@
 <div ng-controller="contactFormController" layout="column" ng-cloak class="md-inline-form">
     <div  layout="column" ng-cloak>
         <md-content layout-padding>
-            <form id="contactForm" action="http://api.phphotspot.com/v-2/contact-form" method="post">
+            <form id="contactForm" action="http://api.phpmyspot.com/v-2/contact-form" method="post">
                 <md-input-container>
                     <label for="api_author_email">Your E-mail</label>
                     <input name="author_email" required id="api_author_email" ng-model="contactFormData.author_email" type="email"/>
@@ -69,8 +69,8 @@
                     <textarea name="content" required id="api_content" cols="25" rows="5" ng-model="contactFormData.content"></textarea>
                 </md-input-container>
                 <md-input-container>
-                    <label for="captcha">Type the characters you see below</label><br/><img style="width:200px" id="contactCaptcha" alt="captcha" src="http://api.phphotspot.com/captcha?transparent=1"/>
-                    <input type="text" name="captcha" required id="captcha" ng-model="signupFormData.captcha" captcha_src="http://api.phphotspot.com/captcha?transparent=1">
+                    <label for="captcha">Type the characters you see below</label><br/><img style="width:200px" id="contactCaptcha" alt="captcha" src="http://api.phpmyspot.com/captcha?transparent=1"/>
+                    <input type="text" name="captcha" required id="captcha" ng-model="signupFormData.captcha" captcha_src="http://api.phpmyspot.com/captcha?transparent=1">
                 </md-input-container>
 
                 <md-button ng-submit class="md-raised md-primary">Submit</md-button>
